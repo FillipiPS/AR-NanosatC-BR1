@@ -7,10 +7,15 @@
 
 import UIKit
 import RealityKit
+import ARKit
 
 class ViewController: UIViewController {
     
     @IBOutlet var arView: ARView!
+
+    let coachingOverlay = ARCoachingOverlayView()
+    var configuration: ARWorldTrackingConfiguration?
+    private var isAdded = false
     
     override func viewDidLoad() {
         super.viewDidLoad()

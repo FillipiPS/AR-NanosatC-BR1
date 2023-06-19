@@ -13,6 +13,7 @@
 		5B91C7552A3E9277004F194F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5B91C7542A3E9277004F194F /* Assets.xcassets */; };
 		5B91C7582A3E9277004F194F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5B91C7562A3E9277004F194F /* LaunchScreen.storyboard */; };
 		5B91C7602A3E9448004F194F /* Nanosatc.rcproject in Sources */ = {isa = PBXBuildFile; fileRef = 5B91C75F2A3E9448004F194F /* Nanosatc.rcproject */; };
+		5BEBD7F52A3FDF1400489D9E /* ViewController+CoachingOverlay.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BEBD7F42A3FDF1300489D9E /* ViewController+CoachingOverlay.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +24,7 @@
 		5B91C7542A3E9277004F194F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5B91C7572A3E9277004F194F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5B91C75F2A3E9448004F194F /* Nanosatc.rcproject */ = {isa = PBXFileReference; lastKnownFileType = file.rcproject; path = Nanosatc.rcproject; sourceTree = "<group>"; };
+		5BEBD7F42A3FDF1300489D9E /* ViewController+CoachingOverlay.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ViewController+CoachingOverlay.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +60,7 @@
 				5B91C74B2A3E9272004F194F /* AppDelegate.swift */,
 				5B91C74D2A3E9272004F194F /* ViewController.swift */,
 				5B91C75E2A3E930A004F194F /* Reality Models */,
+				5BEBD7F32A3FDEE800489D9E /* Extensions */,
 				5B91C7512A3E9272004F194F /* Main.storyboard */,
 				5B91C7542A3E9277004F194F /* Assets.xcassets */,
 				5B91C7562A3E9277004F194F /* LaunchScreen.storyboard */,
@@ -71,6 +74,14 @@
 				5B91C75F2A3E9448004F194F /* Nanosatc.rcproject */,
 			);
 			path = "Reality Models";
+			sourceTree = "<group>";
+		};
+		5BEBD7F32A3FDEE800489D9E /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				5BEBD7F42A3FDF1300489D9E /* ViewController+CoachingOverlay.swift */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -147,6 +158,7 @@
 				5B91C74E2A3E9272004F194F /* ViewController.swift in Sources */,
 				5B91C7602A3E9448004F194F /* Nanosatc.rcproject in Sources */,
 				5B91C74C2A3E9272004F194F /* AppDelegate.swift in Sources */,
+				5BEBD7F52A3FDF1400489D9E /* ViewController+CoachingOverlay.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
