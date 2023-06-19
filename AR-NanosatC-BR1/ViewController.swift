@@ -15,8 +15,8 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        // Load the "Box" scene from the "Experience" Reality File
-        let boxAnchor = try! Experience.loadBox()
+        // Load the "Completed Nanosatc-BR1" scene from the "Nanosatc" Reality File
+        let boxAnchor = try! Nanosatc.loadCompleto()
         
         // Add the box anchor to the scene
         arView.scene.anchors.append(boxAnchor)

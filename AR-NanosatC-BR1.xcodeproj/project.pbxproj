@@ -9,20 +9,20 @@
 /* Begin PBXBuildFile section */
 		5B91C74C2A3E9272004F194F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B91C74B2A3E9272004F194F /* AppDelegate.swift */; };
 		5B91C74E2A3E9272004F194F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B91C74D2A3E9272004F194F /* ViewController.swift */; };
-		5B91C7502A3E9272004F194F /* Experience.rcproject in Sources */ = {isa = PBXBuildFile; fileRef = 5B91C74F2A3E9272004F194F /* Experience.rcproject */; };
 		5B91C7532A3E9272004F194F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5B91C7512A3E9272004F194F /* Main.storyboard */; };
 		5B91C7552A3E9277004F194F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5B91C7542A3E9277004F194F /* Assets.xcassets */; };
 		5B91C7582A3E9277004F194F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5B91C7562A3E9277004F194F /* LaunchScreen.storyboard */; };
+		5B91C7602A3E9448004F194F /* Nanosatc.rcproject in Sources */ = {isa = PBXBuildFile; fileRef = 5B91C75F2A3E9448004F194F /* Nanosatc.rcproject */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		5B91C7482A3E9272004F194F /* AR-NanosatC-BR1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "AR-NanosatC-BR1.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5B91C74B2A3E9272004F194F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5B91C74D2A3E9272004F194F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		5B91C74F2A3E9272004F194F /* Experience.rcproject */ = {isa = PBXFileReference; lastKnownFileType = file.rcproject; path = Experience.rcproject; sourceTree = "<group>"; };
 		5B91C7522A3E9272004F194F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		5B91C7542A3E9277004F194F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5B91C7572A3E9277004F194F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5B91C75F2A3E9448004F194F /* Nanosatc.rcproject */ = {isa = PBXFileReference; lastKnownFileType = file.rcproject; path = Nanosatc.rcproject; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,7 +68,7 @@
 		5B91C75E2A3E930A004F194F /* Reality Models */ = {
 			isa = PBXGroup;
 			children = (
-				5B91C74F2A3E9272004F194F /* Experience.rcproject */,
+				5B91C75F2A3E9448004F194F /* Nanosatc.rcproject */,
 			);
 			path = "Reality Models";
 			sourceTree = "<group>";
@@ -145,8 +145,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				5B91C74E2A3E9272004F194F /* ViewController.swift in Sources */,
+				5B91C7602A3E9448004F194F /* Nanosatc.rcproject in Sources */,
 				5B91C74C2A3E9272004F194F /* AppDelegate.swift in Sources */,
-				5B91C7502A3E9272004F194F /* Experience.rcproject in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
