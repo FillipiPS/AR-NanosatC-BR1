@@ -37,7 +37,7 @@ class ViewController: UIViewController {
             print("hitEntity")
             guard let entity = hitEntity as? HasCollision else { return }
             self.arView.installGestures(.all, for: entity)
-            print("sucess")
+            print("success")
         }
 
         let results = arView.raycast(from: location, allowing: .estimatedPlane, alignment: .horizontal)
@@ -45,7 +45,7 @@ class ViewController: UIViewController {
 
         if let firstResult = results.first {
             // Add an ARAnchor at the touch location with a special name you check later in `session(_:didAdd:)`.
-            let anchor = ARAnchor(name: "NanosatctAncor", transform: firstResult.worldTransform)
+            let anchor = ARAnchor(name: "NanosatcAnchor", transform: firstResult.worldTransform)
             arView.session.add(anchor: anchor)
             isAdded = true
         } else {
@@ -80,7 +80,7 @@ class ViewController: UIViewController {
 extension ViewController: ARSessionDelegate {
     func session(_ session: ARSession, didAdd anchors: [ARAnchor]) {
         for anchor in anchors {
-            if anchor.name == "NanosatcAncor" {
+            if anchor.name == "NanosatcAnchor" {
                 guard let nanosatc = try? ModelEntity.load(named: "Nanosatc.reality") else { return }
                 let anchorEntity = AnchorEntity(anchor: anchor)
 
