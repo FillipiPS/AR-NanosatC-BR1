@@ -88,6 +88,9 @@ class ViewController: UIViewController {
         // Enable realistic reflections.
         configuration?.environmentTexturing = .automatic
 
+        // Enable people occlusion.
+        configuration?.frameSemantics.insert(.personSegmentationWithDepth)
+
         // Begin the session.
         arView.session.run(configuration!)
     }
